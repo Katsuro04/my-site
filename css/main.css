@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+ 
+}
+
+.main{
+    position: relative;
+    background: url('../img/11.jpg') no-repeat center top / cover;
+}
+
+.header{
+    padding: 10px 0;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.menu--link {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-position: x center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.youtube{
+    background-image: url(../img/social/youtube.svg);
+}
+
+.vk{
+    background-image: url(../img/social/vk.svg);
+}
+
+.facebook{
+    background-image: url(../img/social/facebook.svg);
+}
+.twitter{
+    background-image: url(../img/social/twitter.svg);
+}
+.twich{
+    background-image: url(../img/social/twitch.svg);
+}
+.ins{
+    background-image: url(../img/social/instagram.svg);
+}
+
+.hero_container{
+    display: flex;
+    margin-top: 200px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.hero--block{
+    max-width: 624px;
+    clip-path: polygon(10% 0, 100% 0, 100% 83%, 90% 100%, 0 100%, 0 17%);
+    padding: 70px;
+    background: #F8F200;
+}
+
+.hero--title{
+    font-size: 62px;
+    margin-bottom: 50px;
+}
+
+.hero--btn{
+    color: #F8F200;
+    font-size: 24px;
+    padding: 19px 25px;
+    background: #000;
+}
+
+.night__city{
+    margin-top: 70px;
+
+}
+.night__city--title{
+    font-size: 62px;
+    font-weight: 500;
+}
+
+.night__city--subtitle{
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.night__city--images{
+    display: flex;
+    gap: 32px;
+    margin-top: 70px;
+    padding: 5px;
+    background: #000;
+}
+
+.night__city--left_images{
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.night__city--big__image{
+    width: 70vw;
+}
+
